@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    background-color: blue;
+    height: 70px;
+}
+.ancho{
+    width: 95%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+.logo p a{
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: diplo;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: press;
+}
+
+nav ul li a:hover{
+    color: lightblue;
+}
+@font-face{
+    font-family: press;
+    src: url(fuentes/PressStart2P-Regular.ttf);
+    font-family: diplo;
+    src: url(fuentes/Diplomata-Regular.ttf);
+    font-family: moda;
+    src: url(fuentes/Modak-Regular.ttf);
+}
+.form-group label{
+    color: #ffffff;
+}
